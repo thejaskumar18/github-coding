@@ -1,0 +1,24 @@
+#include<stdio.h>
+void main()
+{
+    int marks,i;
+    printf("enter the marks between 0 to 100\n");
+    scanf("%d",&marks);
+    i=marks/10;
+    switch(i)
+    {
+        case 10:
+        case 9:
+        case 8:printf("s");
+        break;
+        case 7:printf("a");
+        break;
+        case 6:printf("b");
+        break;
+        case 5:printf("c");
+        break;
+        case 4:printf("d");
+        break;
+        default:printf("fail");
+}
+}
